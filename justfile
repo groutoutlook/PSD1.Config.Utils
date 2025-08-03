@@ -43,3 +43,7 @@ seek:
 [script]
 script:
     Write-Host "this is in powershell, without shebang syntax"
+
+alias rim := reimport-module
+reimport-module:
+    'gci *psd1 | %{:mo $_}'
