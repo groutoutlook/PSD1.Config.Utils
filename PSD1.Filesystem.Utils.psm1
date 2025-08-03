@@ -52,7 +52,7 @@ function Get-FilesMatching {
     }
 }
 
-function Rename-FileAndReferences {
+function Rename-AllReferences {
     [CmdletBinding()]
     param(
         [Parameter(Mandatory)]
@@ -114,4 +114,4 @@ function Rename-FileAndReferences {
     }
 }
 
-Set-Alias -Name rref -Value Rename-FileAndReferences
+Set-Alias -Name rref -Value Rename-AllReferences

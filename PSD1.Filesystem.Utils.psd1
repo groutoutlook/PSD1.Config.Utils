@@ -7,11 +7,13 @@
     Copyright         = ''
     Description       = 'Utilities for file renaming and reference updating.'
     PowerShellVersion = '5.1'
-    FunctionsToExport = @('Rename-FileAndReferences')
+    FunctionsToExport = @('Rename-AllReferences')
     CmdletsToExport   = @()
     VariablesToExport = @()
     AliasesToExport   = @('rref')
 }
+
+
 
 
 
